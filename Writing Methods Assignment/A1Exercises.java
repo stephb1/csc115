@@ -52,7 +52,7 @@ public class A1Exercises {
 			}
 		}
 		// TODO: add code to finish the method implementation
-    // MY CODE
+    		// MY CODE
 		return result;
 	}
 	
@@ -64,7 +64,7 @@ public class A1Exercises {
 	 * Pre-conditions: n > 1
 	 */
 	// TODO: write the isPrime method here
-  // MY CODE
+  	// MY CODE
 
 	public static boolean isPrime(int n) {
 		int count = 0;
