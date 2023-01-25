@@ -1,3 +1,5 @@
+// Implemented error handling and exceptions
+
 class ListEmptyException extends Exception {}
 class InvalidPositionException extends Exception {}
 
