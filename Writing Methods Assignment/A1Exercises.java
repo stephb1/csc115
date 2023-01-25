@@ -89,7 +89,7 @@ public class A1Exercises {
 	 * Pre-conditions: x, y > 0
 	 */
 	// TODO: write the greatestCommonDenominator method here
-  // MY CODE
+  	// MY CODE
   
 
 	public static int greatestCommonDenominator(int x, int y) {
@@ -129,7 +129,7 @@ public class A1Exercises {
 	 * Pre-conditions: the array is not null (but could be empty)
 	 */
 	// TODO: write the sumArray method here
-  // MY CODE
+  	// MY CODE
 
 	public static int sumArray(int[] array) {
 		int sum = 0;
@@ -150,7 +150,7 @@ public class A1Exercises {
 	 * Pre-conditions: the array is not null (but could be empty)
 	 */
 	// TODO: write the contains method here
-  // MY CODE
+  	// MY CODE
 
 	public static boolean contains(int[] array, int x) {
 		int i = 0;
@@ -176,7 +176,7 @@ public class A1Exercises {
 	 * Pre-conditions: the array is not null (but could be empty)
 	 */
 	// TODO: write the countMatches method here */
-  // MY CODE
+  	// MY CODE
 
 	public static int countMatches(int[] array, int x) {
 		int count = 0;
@@ -189,8 +189,5 @@ public class A1Exercises {
 		}
 		return count;
 	}
-
-
-
 	
 }
