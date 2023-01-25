@@ -1,3 +1,5 @@
+// methods before testing section are my implementation
+
 public class A5Stack<T> implements Stack<T> {
 	
 	private A5Node<T> head;
