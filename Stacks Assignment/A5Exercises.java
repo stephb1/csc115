@@ -7,6 +7,7 @@ public class A5Exercises {
 	 * Parameters: int[] arr
 	 * Returns: int - the number of elements
 	 * Post-condition - the array contents are unchanged
+	 * MY CODE
 	 */
 	public static int countMultiples(int[] arr, int x) {
 		if (arr.length == 0) {
@@ -30,6 +31,7 @@ public class A5Exercises {
 	 * Purpose: double all values in the given array
 	 * Parameters: int[] array - the array to modify
 	 * Returns: void - nothing
+	 * MY CODE
 	 */
 	public static void doubleAll(int[] array) {
 		if (array.length == 0) {
@@ -54,6 +56,7 @@ public class A5Exercises {
 	 * Returns: int - minimum value found in the array
 	 *                or -1 if the array is empty
 	 * Post-condition - the array contents are unchanged
+	 * MY CODE
 	 */
 	public static int getMinimum(int[] array) {
 		if (array.length == 0) {
@@ -85,6 +88,7 @@ public class A5Exercises {
 	 * Parameters: Stack<Book> s - the stack of books
 	 * Returns: int - the total number of books
 	 * Post-condition: s is not modified
+	 * MY CODE
 	 */
 	public static int totalBooks(Stack<Book> s) {
 		int count = 0;
@@ -105,6 +109,7 @@ public class A5Exercises {
 	 * Parameters: Stack<Book> s - the stack of books
 	 * Returns: int - the total number of pages
 	 * Post-condition: s is not modified
+	 * MY CODE
 	 */
 	public static int totalPages(Stack<Book> s) {
 		int sum = 0;
@@ -144,6 +149,7 @@ public class A5Exercises {
 	 *             Book toFind - the book to search for
 	 * Returns: boolean - true if s contains toFind, false otherwise
 	 * Post-condition: s is not modified
+	 * MY CODE
 	 */
 	public static boolean containsBook(Stack<Book> s, Book toFind) {
 		boolean found = false;
@@ -168,6 +174,7 @@ public class A5Exercises {
 	 * Parameters: Stack<Book> s - the stack of books
 	 * Returns: boolean - true if books in s are stacked correctly
 	 * Post-condition: s is not modified
+	 * MY CODE
 	 */
 	public static boolean stackedCorrectly(Stack<Book> s) {
 		boolean stacked = true;
