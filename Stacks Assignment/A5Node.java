@@ -7,7 +7,8 @@ public class A5Node<T>{
 		this.data = value;
 		this.next = null;
 	}
-
+	
+	// The following is my implementation
 	/*
 	 * Purpose: get the data value of this Node
 	 * Parameters: nothing	 
